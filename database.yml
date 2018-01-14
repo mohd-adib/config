@@ -1,0 +1,9 @@
+# /home/deploy/my_app_name/shared/config/database.yml
+production:
+  adapter: postgresql
+  host: 127.0.0.1
+  database: rails_app
+  username: root
+  password: toor
+  encoding: unicode
+  pool: 5
