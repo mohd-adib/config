@@ -1,9 +1,9 @@
-# /home/deploy/my_app_name/shared/config/database.yml
 production:
+  database: toy_app
   adapter: postgresql
-  host: 127.0.0.1
-  database: rails_app
-  username: root
-  password: toor
+  username: deployer
+  password: secret
+  host: localhost
   encoding: unicode
+  port: 5432
   pool: 5
